@@ -10,10 +10,10 @@ func fib(n int) int {
 }
 
 func main() {
-    fmt.Println("Hello, welcome to the Fibonacci sequence!")
-    fmt.Println("Please enter a number:")
-    
     var n int
+    fmt.Println("Hello, welcome to the Fibonacci sequence!")
+    fmt.Print("Please enter a number: ")
+    
     fmt.Scanln(&n)
 
     fmt.Println("The Fibonacci sequence for", n, "is:", fib(n))
